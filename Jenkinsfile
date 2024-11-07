@@ -4,7 +4,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Checkout the main project repository containing the Jenkinsfile and docker-compose.yml
-                git url: 'https://github.com/your-username/project-root-G4.git', branch: 'main'
+                git url: 'https://github.com/nimz19/project-root-G4.git', branch: 'main'
             }
         }
         stage('Build Docker Images') {
